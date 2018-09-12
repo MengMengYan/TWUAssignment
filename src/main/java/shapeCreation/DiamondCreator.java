@@ -41,7 +41,7 @@ public class DiamondCreator extends ShapeCreator {
 
         appendMargin(output, margin);
 
-        System.out.println("\n" + output.toString());
+        System.out.println(output.toString());
     }
 
     private void appendMargin(StringBuilder output, int margin){

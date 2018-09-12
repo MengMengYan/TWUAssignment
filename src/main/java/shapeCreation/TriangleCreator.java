@@ -19,8 +19,6 @@ public class TriangleCreator extends ShapeCreator{
     }
 
     public void drawHorizontalLine(int input) {
-        System.out.print("Please, enter number of asterisks you want in a row: ");
-
         printLineOfAsterisks(input);
     }
 }

@@ -11,6 +11,6 @@ public class ShapeCreator {
         for (int i = 0; i < number; i++){
             output.append("*");
         }
-        System.out.println("\n" + output.toString());
+        System.out.println(output.toString());
     }
 }
