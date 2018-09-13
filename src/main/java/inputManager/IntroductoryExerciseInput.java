@@ -16,30 +16,30 @@ public class IntroductoryExerciseInput {
 
         triangleCreator.printAsterisk();
 
-        System.out.println("How many stars should be in a row? ");
+        System.out.print("How many stars should be in a row? ");
         int intInput = retriever.getIntInput();
         triangleCreator.drawHorizontalLine(intInput);
 
-        System.out.println("How many stars should be in a column? ");
+        System.out.print("How many stars should be in a column? ");
         intInput = retriever.getIntInput();
         triangleCreator.drawVerticalLine(intInput);
 
-        System.out.println("How many rows should the right triangle have? ");
+        System.out.print("How many rows should the right triangle have? ");
         intInput = retriever.getIntInput();
         triangleCreator.drawRightTriangle(intInput);
 
 
         DiamondCreator diamondCreator = new DiamondCreator();
 
-        System.out.println("How many rows should the isosceles triangle have? ");
+        System.out.print("How many rows should the isosceles triangle have? ");
         intInput = retriever.getIntInput();
         diamondCreator.drawIsoscelesTriangle(intInput);
 
-        System.out.println("How many rows should the upper part of the diamond have? ");
+        System.out.print("How many rows should the upper part of the diamond have? ");
         intInput = retriever.getIntInput();
         diamondCreator.drawDiamond(intInput);
 
-        System.out.println("At which line should my name appear? ");
+        System.out.print("At which line should my name appear? ");
         intInput = retriever.getIntInput();
         diamondCreator.drawDiamondWithMyName(intInput);
 

@@ -24,4 +24,18 @@ public class PrimeFactorCalculatorTest {
         assertEquals("3,5,7", outContent.toString().trim());
     }
 
+    @Test
+    public void testPrimeFactorCalculatorMarginCase() {
+        PrimeFactorCalculator primeFactorCalculator = new PrimeFactorCalculator();
+        primeFactorCalculator.generate(2);
+        assertEquals("2", outContent.toString().trim());
+    }
+
+    @Test
+    public void testPrimeFactorCalculatorNoPrimeFactors() {
+        PrimeFactorCalculator primeFactorCalculator = new PrimeFactorCalculator();
+        primeFactorCalculator.generate(1);
+        assertEquals("", outContent.toString().trim());
+    }
+
 }
