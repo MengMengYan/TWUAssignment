@@ -32,6 +32,13 @@ public class PrimeFactorCalculatorTest {
     }
 
     @Test
+    public void testPrimeFactorCalculatorPrimeNumber() {
+        PrimeFactorCalculator primeFactorCalculator = new PrimeFactorCalculator();
+        primeFactorCalculator.generate(7);
+        assertEquals("7", outContent.toString().trim());
+    }
+
+    @Test
     public void testPrimeFactorCalculatorNoPrimeFactors() {
         PrimeFactorCalculator primeFactorCalculator = new PrimeFactorCalculator();
         primeFactorCalculator.generate(1);
