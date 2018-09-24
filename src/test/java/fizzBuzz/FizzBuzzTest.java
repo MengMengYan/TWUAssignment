@@ -24,6 +24,12 @@ public class FizzBuzzTest {
         assertEquals("1", fizzBuzz.decideFizzBuzz(1));
     }
 
+    @Test
+    public void test2(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("2", fizzBuzz.decideFizzBuzz(2));
+    }
+
     @After
     public void restoreStreams() {
         System.setOut(originalOut);
