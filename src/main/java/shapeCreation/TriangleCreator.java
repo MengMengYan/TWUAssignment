@@ -1,7 +1,7 @@
 package shapeCreation;
 
 
-
+//a triangle creator class
 public class TriangleCreator extends ShapeCreator{
 
     public void drawRightTriangle(int input) {
